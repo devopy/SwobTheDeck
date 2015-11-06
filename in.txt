@@ -1,0 +1,29 @@
+date_tm, Date & Time, 0
+mslp, MSLP, 1
+air_temp, Air Temp, 2
+dwpt_temp, Dewpoint Temp, 3
+rel_hum, Relative Humidity, 4
+avg_wnd_dir_10m_mt50-60, Avg Wnd Dir 10m min50-60 (Deg), 5
+avg_wnd_spd_10m_mt58-60, Avg Wnd Spd 10m min58-60, 6
+max_wnd_gst_spd_10m_mt50-60, Max Wnd GustSpd 10m min50-60, 7
+max_pk_wnd_spd_10m_pst1hr, Max Pk Wnd Spd 10m pst1hr, 8
+pcpn_amt_pst1hr, Weigh Gauge pst1hr (pcpn), 9
+rnfl_amt_pst1hr, TBRG pst1hr (rnfl), 10
+snw_dpth, Snow Depth, 11
+pcpn_amt_pst24hrs, PCPN Amt pst24hr, 12
+pres_tend_char_pst3hrs, Pressure Tendency Characteristic pst3hr, 13
+pres_tend_amt_pst3hrs, Pressure Tendency Amount pst3hr, 14
+logr_panl_temp, Logger Panel Temp,15
+avg_cum_pcpn_gag_wt_fltrd_mt55-60, Weigh Gauge Raw (kg/m^2), 16
+max_batry_volt_pst1hr, Max Battery Voltage pst1hr, 17
+min_batry_volt_pst1hr, Min Battery Voltage pst1hr, 18
+hdr_fwd_pwr, HDR FWD PWR, 19
+hdr_oscil_drft, HDR OSCIL DRFT, 20
+hdr_refltd_pwr, HDR REFLT RWR, 21
+hdr_suply_volt, HDR SUPLY VOLT, 22
+stn_elev, Station Elevation, 23
+lat, lat, 24
+long, long, 25
+wmo_synop_id, wmo_synop_id, 26
+msc_id, MSC ID, 27
+clim_id, Climate ID, 28
