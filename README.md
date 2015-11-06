@@ -5,6 +5,10 @@ Parses SWOB-ML information from http://dd.weather.gc.ca/observations/swob-ml/
 ## Installation Instructions
 
  * On Ubuntu 14.04
+  * Download or clone the repository:
+    * Use the 'Download ZIP' button on the right OR
+    * ```git clone https://github.com/devopy/SwobTheDeck.git``` or ```git clone git@github.com:devopy/SwobTheDeck.git```
+    
   * Install pip and virtualenv:
     ```
     sudo apt-get install python-pip python-dev build-essential
