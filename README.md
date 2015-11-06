@@ -1,4 +1,4 @@
-# Environment Canada SWOB-ML Parser
+# Parser for SWOB-ML files from Environment Canada's MSC
 
 Parses SWOB-ML information from http://dd.weather.gc.ca/observations/swob-ml/
 
@@ -23,7 +23,7 @@ Parses SWOB-ML information from http://dd.weather.gc.ca/observations/swob-ml/
     ```
     pip install -r REQUIREMENTS.txt
     ```
-  * Read the code.  See the examples at the bottom
+  * Read the code.  See the examples at the bottom of ```parser.py```.
   * Run the code:
     ```
     python parser.py
