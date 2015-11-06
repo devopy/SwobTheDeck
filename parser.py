@@ -434,15 +434,16 @@ def csv_out(results_list, ordered_titles, filename):
 A collection of examples on how to use these functions
 """
 if __name__ == "__main__":
-    # Specify the date in YYYYMMDD format
+    # Specify the date in YYYYMMDD format.
+    # Here we get the current ZULU date in YYYYMMDD format.
     strdate = datetime.datetime.utcnow().strftime("%Y%m%d")
-    # Example of how to get all stations
+    # Example of how to get all stations.
     all_stations = get_stations_list(urlroot, strdate)
-    # Get the rules for cleaning and sorting output files
+    # Get the rules for cleaning and sorting output files.
     clean_dict, clean = clean_incoming()
-    # Parse the data for a station
+    # Parse the data for a station.  "VSL" is used in this example.
     results_list, ordered_titles = parse_station(urlroot, strdate, "VSL", clean_dict=clean_dict, clean=clean)
     
-    # Example of how to output data to Excel and CSV formats
+    # Example of how to output data to Excel and CSV formats.
     excel_out(results_list, ordered_titles, "output.xls")
     csv_out(results_list, ordered_titles, "output.csv")
