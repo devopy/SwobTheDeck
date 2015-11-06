@@ -2,6 +2,8 @@
 
 Parses SWOB-ML information from http://dd.weather.gc.ca/observations/swob-ml/
 
+See source code in ```parser.py```.
+
 ## Installation Instructions
 
  * On Ubuntu 14.04
